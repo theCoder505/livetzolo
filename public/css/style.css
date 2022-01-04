@@ -1,0 +1,293 @@
+.wrapper-padding{
+padding: 1% 1% 1% 1% ;
+}
+.table-img{
+	width:60px;
+	height:auto;
+}
+
+.coinLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.table td, .table th {
+    font-weight: 600;
+    color: #4f4f4f;
+}
+
+.table tbody tr:hover td{
+    background-color: #324355;
+    color: white;
+}
+
+.table tbody tr:hover td>a{
+    color: rgb(94, 231, 255);
+}
+
+/* //loader css  */
+
+.centered{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:rgb(4, 68, 65);
+	filter: blur(10px) contrast(20);
+}
+.blob-1,.blob-2{
+	width:70px;
+	height:70px;
+	position:absolute;
+	background:#fff;
+	border-radius:50%;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1{
+	left:20%;
+	animation:osc-l 2.5s ease infinite;
+}
+.blob-2{
+	left:80%;
+	animation:osc-r 2.5s ease infinite;
+	background:#0ff;
+}
+@keyframes osc-l{
+	0%{left:20%;}
+	50%{left:50%;}
+	100%{left:20%;}
+}
+@keyframes osc-r{
+	0%{left:80%;}
+	50%{left:50%;}
+	100%{left:80%;}
+}
+
+
+
+.modal-dialog-scrollable .modal-body {
+    overflow-y: auto;
+    /* max-height: 60vh; */
+}
+
+
+#coinLogo {
+    width: 150px;
+    height: 150px;
+    background: #1c8adb;
+}
+
+#submitHolder {
+    background: #1c1c1c;
+    color: white;
+    border-radius: 15px;
+    max-width: 750px;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+
+#submitHolder input, #submitHolder textarea{
+    background: transparent;
+    color: white;
+}
+
+.editCross{
+    font-size: 40px;
+}
+
+hr{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.tokenVal{
+    background-color: #0056f970;
+}
+
+.borderWhite{
+    padding: 15px;
+    border-radius: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.charts{
+     background-color: #04a2a270;
+}
+.buynow{
+     background-color: #f9000070;
+}
+.socialLinks{
+     background-color: #08248e75;
+}
+
+select {
+    display: block !important;
+    background: #0000 !important;
+    color: red !important;
+}
+
+
+
+.floatRight {
+    background: transparent;
+    border: none;
+    color: #ff0404;
+    font-weight: bold;
+    font-size: 35px;
+    float: right;
+    margin-top: -15px;
+}
+
+
+.floatLeftBtn {
+    float: right;
+    margin-bottom: 30px;
+}
+
+
+#userType {
+    color: black !important;
+}
+
+
+
+/* //ui sortable  */
+.box
+   {
+    width:1270px;
+    padding:20px;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-top:25px;
+   }
+   #page_list li
+   {
+    padding:16px;
+    background-color:#f9f9f9;
+    border:1px dotted #ccc;
+    cursor:move;
+    margin-top:12px;
+   }
+   #page_list li.ui-state-highlight
+   {
+    padding:24px;
+    background-color:#ffffcc;
+    border:1px dotted #ccc;
+    cursor:move;
+    margin-top:12px;
+   }
+
+
+.custom-select.custom-select-sm.form-control.form-control-sm {
+    color: black !important;
+}
+
+
+.activated{
+    background-color: white;
+}
+
+
+.fix-sidebar .left-sidebar nav .activated a,
+.fix-sidebar .left-sidebar nav .activated a i {
+    color: #EE1C25!important;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+
+
+#loginSiteImg {
+    width: 100%;
+    height: 100%;
+}
+
+#loginHolder {
+    background-color: #180d5b;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0px 0px 10px 5px #4285f48f;
+    padding: 35px;
+}
+
+
+#loginHolder [type="checkbox"]:checked, #loginHolder [type="checkbox"]:not(:checked) {
+    position: unset!important;
+    opacity: 1!important;
+    pointer-events: unset!important;
+    margin-right: 10px;
+}
+
+#influencerDiv [type="checkbox"]:checked, #influencerDiv [type="checkbox"]:not(:checked) {
+    position: unset!important;
+    opacity: 1!important;
+    pointer-events: unset!important;
+    margin-right: 10px;
+}
+
+
+
+#influencerDiv {
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    background: #222;
+    color: wheat;
+}
+
+
+
+.advertisements input{
+    background: transparent;
+    color: red;
+}
+
+
+.addvertiseImg {
+    width: 100%;
+    height: 50px;
+}
+
+
+
+#gridDiv {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.cardsClass {
+    /* background: red; */
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    width: 270px;
+    height: 150px;
+    box-shadow: 0px 0px 15px 3px #9b9b9b;
+    margin: 20px;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+}
+
+.cardAmount {
+    word-wrap: anywhere;
+}
+
+
+#logoImg {
+    max-width: 400px;
+    margin: 15px auto;
+}
+
